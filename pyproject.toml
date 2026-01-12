@@ -8,6 +8,9 @@ license = { text = "MIT" }
 authors = [{ name = "Your Name" }]
 dependencies = ["rich>=13.0"]
 
+[project.optional-dependencies]
+dev = ["pytest>=9.0.0"]
+
 [project.scripts]
 codex-test = "codex_test.cli:main"
 
